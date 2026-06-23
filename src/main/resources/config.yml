@@ -1,0 +1,21 @@
+# CustomTPA Configuration
+
+# Checking for updates (true / false)
+update-checker: true
+
+request-timeout: 60          # request lifetime in seconds
+cooldown: 30                 # cooldown between requests (0 = disabled)
+delay: 3                     # delay before teleportation after acceptance
+
+# Blacklist of worlds
+world-blacklist:
+  enabled: false
+  worlds:
+    - "arena"
+    - "event_world"
+    
+# Countdown Sound (Choose One)
+# Available: ENTITY_EXPERIENCE_ORB_PICKUP, BLOCK_NOTE_BLOCK_PLING, BLOCK_NOTE_BLOCK_HAT,
+#            BLOCK_NOTE_BLOCK_BELL, UI_BUTTON_CLICK, ENTITY_ARROW_HIT_PLAYER,
+#            BLOCK_WOODEN_BUTTON_CLICK_ON, BLOCK_STONE_BUTTON_CLICK_ON
+countdown-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
