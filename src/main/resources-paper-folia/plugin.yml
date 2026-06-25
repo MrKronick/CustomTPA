@@ -1,0 +1,85 @@
+name: CustomTPA
+version: ${project.version}
+main: ru.mcplugins.tpa.TPAPlugin
+api-version: 1.21
+folia-supported: true
+softdepend: [PlaceholderAPI]
+author: MrKronick
+description: Красивый TPA с поддержкой &-кодов, §-кодов, MiniMessage и PlaceholderAPI
+
+commands:
+  tpa:
+    description: Отправить запрос на телепортацию
+    usage: /<command> <игрок>
+    aliases: [tpa]
+  tpahere:
+    description: Пригласить игрока к себе
+    usage: /<command> <игрок>
+    aliases: [tpah]
+  tpaccept:
+    description: Принять запрос
+    usage: /<command> [игрок]
+    aliases: [tpyes]
+  tpadeny:
+    description: Отклонить запрос
+    usage: /<command> [игрок]
+    aliases: [tpno]
+  tpcancel:
+    description: Отменить свой запрос
+    usage: /<command>
+  tpatoggle:
+    description: Вкл/выкл приём запросов
+    usage: /<command>
+  customtpa:
+    description: Главная команда CustomTPA
+    usage: /<command> reload
+    aliases: [ctpa]
+    permission: customtpa.reload
+    permission-message: Unknown command. Type /help for a list of commands.
+  tpaauto:
+    description: Вкл/выкл авто-принятие запросов
+    usage: /<command>
+  tpastats:
+    description: Показать статистику запросов
+    usage: /<command>
+
+permissions:
+  tpa.tpa:
+    description: Возможность отправить /tpa
+    default: true
+  tpa.tpahere:
+    description: Возможность отправить /tpahere
+    default: true
+  tpa.accept:
+    description: Принять запрос
+    default: true
+  tpa.deny:
+    description: Отклонить запрос
+    default: true
+  tpa.cancel:
+    description: Отменить запрос
+    default: true
+  tpa.toggle:
+    description: Переключить приём запросов
+    default: true
+  tpa.gui:
+    description: Открыть GUI запросов
+    default: true
+  tpa.auto:
+    description: Вкл/выкл авто-принятие запросов
+    default: true
+  customtpa.bypass.delay:
+    description: Обход задержки телепортации
+    default: false
+  customtpa.bypass.cooldown:
+    description: Обход кулдауна между запросами
+    default: false
+  customtpa.bypass.blacklist:
+    description: Обход блэклиста миров
+    default: false
+  customtpa.bypass.limit:
+    description: Обход дневного лимита запросов
+    default: false
+  customtpa.reload:
+    description: Перезагрузка конфигурации CustomTPA
+    default: op
