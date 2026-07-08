@@ -1,0 +1,89 @@
+name: CustomTPA
+version: ${project.version}
+main: ru.mcplugins.tpa.TPAPlugin
+api-version: 1.21
+softdepend: [PlaceholderAPI]
+author: MrKronick
+description: A beautiful TPA with support for &-codes, §-codes, MiniMessage, and PlaceholderAPI
+
+commands:
+  tpa:
+    description: Send a teleportation request
+    usage: /<command> <игрок>
+    aliases: [tpa]
+  tpahere:
+    description: Invite a player to your place
+    usage: /<command> <игрок>
+    aliases: [tpah]
+  tpaccept:
+    description: Accept request
+    usage: /<command> [игрок]
+    aliases: [tpyes]
+  tpadeny:
+    description: Reject the request
+    usage: /<command> [игрок]
+    aliases: [tpno]
+  tpcancel:
+    description: Cancel your request
+    usage: /<command>
+  tpatoggle:
+    description: Turn on/off receiving requests
+    usage: /<command>
+  customtpa:
+    description: CustomTPA configuration reload command
+    usage: /<command> reload
+    aliases: [ctpa]
+    permission: customtpa.reload
+    permission-message: Unknown command. Type /help for a list of commands.
+  tpaauto:
+    description: Turn on/off auto-accept requests
+    usage: /<command>
+  tpastats:
+    description: Show query statistics
+    usage: /<command>
+  tpaback:
+    description: Return to the place before teleportation
+    usage: /<command>
+  tpaforce:
+    description: Teleport to a player without requesting it
+    usage: /<command> <игрок>
+    permission: customtpa.force
+    permission-message: Unknown command. Type /help for a list of commands.
+
+permissions:
+  tpa.tpa:
+    description: Possibility to send /tpa
+    default: true
+  tpa.tpahere:
+    description: Possibility to send /tpahere
+    default: true
+  tpa.accept:
+    description: Accept request
+    default: true
+  tpa.deny:
+    description: Reject the request
+    default: true
+  tpa.cancel:
+    description: Cancel request
+    default: true
+  tpa.toggle:
+    description: Toggle request acceptance
+    default: true
+  tpa.gui:
+    description: Open the Query GUI
+    default: true
+  tpa.auto:
+    description: Turn on/off auto-accept requests
+    default: true
+  customtpa.reload:
+    description: Reloading CustomTPA configuration
+    default: op
+  customtpa.force:
+    description: Ability to use /tpaforce
+    default: op
+  customtpa.tpaback:
+    description: Ability to use /tpaback
+    default: true
+  customtpa.bypass.blacklist:
+    description: Обход блэклиста миров
+    default: op
