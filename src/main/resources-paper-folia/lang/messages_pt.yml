@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Foste <green>forçadamente <gray>teletransportado.</gr
 force-tpa-disabled: "<gray>O TPA forçado está <red>desativado <gray>neste servidor.</gray>"
 world-filtered-sender: "<gray>Não <red>podes <gray>enviar pedidos deste mundo.</gray>"
 world-filtered-target: "<gray>Não <red>podes <gray>enviar pedidos para este mundo.</gray>"
+vault-insufficient-funds: "<gray>Não tens <red>dinheiro suficiente<gray>! Precisas de <gold>%cost%</gold>"
+vault-charged: "<gray>Cobrado <yellow>%cost%</yellow> pelo pedido de teleporte.</gray>"

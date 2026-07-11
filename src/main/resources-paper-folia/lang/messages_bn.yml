@@ -53,3 +53,5 @@ force-tpa-success: "<gray>আপনাকে <green>জোরপূর্বক 
 force-tpa-disabled: "<gray>জোরপূর্বক TPA এই সার্ভারে <red>নিষ্ক্রিয়<gray>।</gray>"
 world-filtered-sender: "<gray>আপনি এই বিশ্ব থেকে <red>অনুরোধ পাঠাতে পারবেন না<gray>।</gray>"
 world-filtered-target: "<gray>আপনি এই বিশ্বে <red>অনুরোধ পাঠাতে পারবেন না<gray>।</gray>"
+vault-insufficient-funds: "<gray>আপনার <red>যথেষ্ট টাকা নেই<gray>! প্রয়োজন <gold>%cost%</gold>"
+vault-charged: "<gray>টেলিপোর্ট অনুরোধের জন্য <yellow>%cost%</yellow> কেটে নেওয়া হয়েছে।</gray>"

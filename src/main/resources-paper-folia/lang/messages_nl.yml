@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Je bent <green>geforceerd <gray>geteleporteerd!</green
 force-tpa-disabled: "<gray>Geforceerde TPA is <red>uitgeschakeld <gray>op deze server.</gray>"
 world-filtered-sender: "<gray>Je <red>kunt <gray>geen verzoeken sturen vanuit deze wereld.</gray>"
 world-filtered-target: "<gray>Je <red>kunt <gray>geen verzoeken sturen naar deze wereld.</gray>"
+vault-insufficient-funds: "<gray>Je hebt <red>niet genoeg geld<gray>! Nodig: <gold>%cost%</gold>"
+vault-charged: "<gray><yellow>%cost%</yellow> in rekening gebracht voor teleportatieverzoek.</gray>"

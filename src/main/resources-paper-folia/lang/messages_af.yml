@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Jy is <green>geforseer <gray>om te teleporteer!</green
 force-tpa-disabled: "<gray>Gedwonge TPA is <red>afgeskakel <gray>op hierdie bediener.</gray>"
 world-filtered-sender: "<gray>Jy <red>kan nie <gray>versoeke uit hierdie wêreld stuur nie.</gray>"
 world-filtered-target: "<gray>Jy <red>kan nie <gray>versoeke na hierdie wêreld stuur nie.</gray>"
+vault-insufficient-funds: "<gray>Jy <red>het nie genoeg geld nie<gray>! Benodig <gold>%cost%</gold>"
+vault-charged: "<gray><yellow>%cost%</yellow> gehef vir teleportversoek.</gray>"

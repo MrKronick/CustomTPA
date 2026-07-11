@@ -53,3 +53,5 @@ force-tpa-success: "<gray>ඔබ <green>බලහත්කාරයෙන් <gr
 force-tpa-disabled: "<gray>බලහත්කාර TPA මෙම සේවාදායකයේ <red>අක්‍රිය<gray>යි.</gray>"
 world-filtered-sender: "<gray>ඔබට මෙම ලෝකයෙන් <red>ඉල්ලීම් යැවිය නොහැක<gray>.</gray>"
 world-filtered-target: "<gray>ඔබට මෙම ලෝකයට <red>ඉල්ලීම් යැවිය නොහැක<gray>.</gray>"
+vault-insufficient-funds: "<gray>ඔබට <red>ප්‍රමාණවත් මුදල් නැත<gray>! අවශ්‍යයි <gold>%cost%</gold>"
+vault-charged: "<gray>ටෙලිපෝර්ට් ඉල්ලීම සඳහා <yellow>%cost%</yellow> අය කරන ලදී.</gray>"

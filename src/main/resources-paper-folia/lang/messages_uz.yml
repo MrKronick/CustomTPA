@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Siz <green>majburiy <gray>teleport qilindingiz!</green
 force-tpa-disabled: "<gray>Majburiy TPA bu serverda <red>o'chirilgan<gray>.</gray>"
 world-filtered-sender: "<gray>Siz bu olamdan <red>so'rov yubora olmaysiz<gray>.</gray>"
 world-filtered-target: "<gray>Siz bu olamga <red>so'rov yubora olmaysiz<gray>.</gray>"
+vault-insufficient-funds: "<gray>Sizda <red>yetarlicha pul yo'q<gray>! Kerak <gold>%cost%</gold>"
+vault-charged: "<gray>Teleport so'rovi uchun <yellow>%cost%</yellow> yechib olindi.</gray>"

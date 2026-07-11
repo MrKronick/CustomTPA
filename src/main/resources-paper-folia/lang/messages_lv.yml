@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Jūs piespiedu kārtā <green>teleportējāties!</gree
 force-tpa-disabled: "<gray>Piespiedu TPA šajā serverī ir <red>atspējota<gray>.</gray>"
 world-filtered-sender: "<gray>No šīs pasaules <red>nevarat <gray>sūtīt pieprasījumus.</gray>"
 world-filtered-target: "<gray>Uz šo pasauli <red>nevarat <gray>sūtīt pieprasījumus.</gray>"
+vault-insufficient-funds: "<gray>Jums <red>nav pietiekami daudz naudas<gray>! Nepieciešams <gold>%cost%</gold>"
+vault-charged: "<gray>Iekasēti <yellow>%cost%</yellow> par teleportācijas pieprasījumu.</gray>"

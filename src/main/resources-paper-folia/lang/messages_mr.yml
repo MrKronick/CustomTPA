@@ -53,3 +53,5 @@ force-tpa-success: "<gray>तुम्हाला <green>सक्तीने 
 force-tpa-disabled: "<gray>सक्तीचे TPA या सर्व्हरवर <red>बंद<gray> आहे.</gray>"
 world-filtered-sender: "<gray>तुम्ही या जगातून <red>विनंती पाठवू शकत नाही<gray>.</gray>"
 world-filtered-target: "<gray>तुम्ही या जगात <red>विनंती पाठवू शकत नाही<gray>.</gray>"
+vault-insufficient-funds: "<gray>तुमच्याकडे <red>पुरेसे पैसे नाहीत<gray>! लागेल <gold>%cost%</gold>"
+vault-charged: "<gray>टेलिपोर्ट विनंतीसाठी <yellow>%cost%</yellow> कापले.</gray>"

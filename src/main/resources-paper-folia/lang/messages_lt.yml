@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Buvote <green>priverstinai <gray>teleportuotas!</green
 force-tpa-disabled: "<gray>Priverstinis TPA šiame serveryje <red>išjungtas<gray>.</gray>"
 world-filtered-sender: "<gray>Iš šio pasaulio <red>negalite <gray>siųsti užklausų.</gray>"
 world-filtered-target: "<gray>Į šį pasaulį <red>negalite <gray>siųsti užklausų.</gray>"
+vault-insufficient-funds: "<gray>Jūs <red>neturite pakankamai pinigų<gray>! Reikia <gold>%cost%</gold>"
+vault-charged: "<gray>Nuskaičiuota <yellow>%cost%</yellow> už teleportacijos užklausą.</gray>"

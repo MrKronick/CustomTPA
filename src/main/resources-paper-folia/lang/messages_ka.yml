@@ -53,3 +53,5 @@ force-tpa-success: "<gray>თქვენ <green>იძულებით <gray>
 force-tpa-disabled: "<gray>იძულებითი TPA ამ სერვერზე <red>გამორთულია<gray>.</gray>"
 world-filtered-sender: "<gray>ამ სამყაროდან <red>ვერ გაგზავნით მოთხოვნას<gray>.</gray>"
 world-filtered-target: "<gray>ამ სამყაროში <red>ვერ გაგზავნით მოთხოვნას<gray>.</gray>"
+vault-insufficient-funds: "<gray>თქვენ <red>არ გაქვთ საკმარისი ფული<gray>! საჭიროა <gold>%cost%</gold>"
+vault-charged: "<gray>ტელეპორტის მოთხოვნისთვის <yellow>%cost%</yellow> ჩამოიჭრა.</gray>"

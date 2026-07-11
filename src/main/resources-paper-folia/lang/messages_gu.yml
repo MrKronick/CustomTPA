@@ -53,3 +53,5 @@ force-tpa-success: "<gray>તમને <green>બળજબરીથી <gray>ટ
 force-tpa-disabled: "<gray>બળજબરીપૂર્ણ TPA આ સર્વર પર <red>બંધ<gray> છે.</gray>"
 world-filtered-sender: "<gray>તમે આ વિશ્વમાંથી <red>વિનંતી મોકલી શકતા નથી<gray>.</gray>"
 world-filtered-target: "<gray>તમે આ વિશ્વમાં <red>વિનંતી મોકલી શકતા નથી<gray>.</gray>"
+vault-insufficient-funds: "<gray>તમારી પાસે <red>પૂરતા પૈસા નથી<gray>! જોઈએ <gold>%cost%</gold>"
+vault-charged: "<gray>ટેલિપોર્ટ વિનંતી માટે <yellow>%cost%</yellow> વસૂલવામાં આવ્યા.</gray>"

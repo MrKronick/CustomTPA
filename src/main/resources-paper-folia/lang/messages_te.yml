@@ -53,3 +53,5 @@ force-tpa-success: "<gray>మీరు <green>బలవంతంగా <gray>ట
 force-tpa-disabled: "<gray>బలవంతపు TPA ఈ సర్వర్‌లో <red>ఆఫ్<gray> చేయబడింది.</gray>"
 world-filtered-sender: "<gray>మీరు ఈ ప్రపంచం నుండి <red>అభ్యర్థన పంపలేరు<gray>.</gray>"
 world-filtered-target: "<gray>మీరు ఈ ప్రపంచానికి <red>అభ్యర్థన పంపలేరు<gray>.</gray>"
+vault-insufficient-funds: "<gray>మీకు <red>తగినంత డబ్బు లేదు<gray>! అవసరం <gold>%cost%</gold>"
+vault-charged: "<gray>టెలిపోర్ట్ అభ్యర్థన కోసం <yellow>%cost%</yellow> వసూలు చేయబడింది.</gray>"

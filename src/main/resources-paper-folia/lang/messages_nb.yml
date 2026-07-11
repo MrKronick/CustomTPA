@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Du har blitt <green>tvunget <gray>teleportert!</green>
 force-tpa-disabled: "<gray>Tvungen TPA er <red>deaktivert <gray>på denne serveren.</gray>"
 world-filtered-sender: "<gray>Du <red>kan ikke <gray>sende forespørsler fra denne verden.</gray>"
 world-filtered-target: "<gray>Du <red>kan ikke <gray>sende forespørsler til denne verden.</gray>"
+vault-insufficient-funds: "<gray>Du har <red>ikke nok penger<gray>! Trenger <gold>%cost%</gold>"
+vault-charged: "<gray>Belastet <yellow>%cost%</yellow> for teleporteringsforespørsel.</gray>"

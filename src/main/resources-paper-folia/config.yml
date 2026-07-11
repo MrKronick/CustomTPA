@@ -2,8 +2,8 @@
 
 # Checking for updates (true / false)
 update-checker: true
-request-timeout: 60          # request lifetime in seconds
-cooldown: 30                 # cooldown between requests (0 = disabled)
+request-timeout: 120          # request lifetime in seconds
+cooldown: 10                 # cooldown between requests (0 = disabled)
 delay: 3                     # delay before teleportation after acceptance
 
 # Countdown Sound (Choose One)
@@ -59,3 +59,7 @@ force-tpa:
 
 # Auto-cleanup logs (days)
 max-log-days: 7
+
+# Cost of sending a request (0 = free)
+tpa-cost: 0
+tpahere-cost: 0

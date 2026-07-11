@@ -3,26 +3,26 @@ version: ${project.version}
 main: ru.mcplugins.tpa.TPAPlugin
 api-version: 1.21
 folia-supported: true
-softdepend: [PlaceholderAPI]
+softdepend: [PlaceholderAPI, Vault]
 author: MrKronick
-description: A beautiful TPA with support for &-codes, §-codes, MiniMessage, and PlaceholderAPI
+description: A beautiful TPA with support for &-codes, §-codes, MiniMessage, PlaceholderAPI, and Vault
 
 commands:
   tpa:
     description: Send a teleportation request
-    usage: /<command> <игрок>
+    usage: /<command> <player>
     aliases: [tpa]
   tpahere:
     description: Invite a player to your place
-    usage: /<command> <игрок>
+    usage: /<command> <player>
     aliases: [tpah]
   tpaccept:
     description: Accept request
-    usage: /<command> [игрок]
+    usage: /<command> [player]
     aliases: [tpyes]
   tpadeny:
     description: Reject the request
-    usage: /<command> [игрок]
+    usage: /<command> [player]
     aliases: [tpno]
   tpcancel:
     description: Cancel your request
@@ -47,7 +47,7 @@ commands:
     usage: /<command>
   tpaforce:
     description: Teleport to a player without requesting it
-    usage: /<command> <игрок>
+    usage: /<command> <player>
     permission: customtpa.force
     permission-message: Unknown command. Type /help for a list of commands.
 
@@ -86,5 +86,8 @@ permissions:
     description: Ability to use /tpaback
     default: true
   customtpa.bypass.blacklist:
-    description: Обход блэклиста миров
+    description: Bypassing the world blacklist
     default: op
+  customtpa.bypass.cost:
+    description: Bypassing the teleportation fee
+    default: false

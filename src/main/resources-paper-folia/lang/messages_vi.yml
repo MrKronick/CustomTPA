@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Bạn đã bị <green>dịch chuyển cưỡng bức!
 force-tpa-disabled: "<gray>TPA Cưỡng Bức bị <red>vô hiệu hóa <gray>trên máy chủ này.</gray>"
 world-filtered-sender: "<gray>Bạn <red>không thể <gray>gửi yêu cầu từ thế giới này.</gray>"
 world-filtered-target: "<gray>Bạn <red>không thể <gray>gửi yêu cầu đến thế giới này.</gray>"
+vault-insufficient-funds: "<gray>Bạn <red>không có đủ tiền<gray>! Cần <gold>%cost%</gold>"
+vault-charged: "<gray>Đã trừ <yellow>%cost%</yellow> cho yêu cầu dịch chuyển.</gray>"

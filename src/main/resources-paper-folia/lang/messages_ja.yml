@@ -53,3 +53,5 @@ force-tpa-success: "<gray>強制的に <green>テレポートされました！<
 force-tpa-disabled: "<gray>強制TPAはこのサーバーでは <red>無効<gray>です。</gray>"
 world-filtered-sender: "<gray>この世界から<red>リクエストを送信できません<gray>。</gray>"
 world-filtered-target: "<gray>この世界に<red>リクエストを送信できません<gray>。</gray>"
+vault-insufficient-funds: "<gray>お金が<red>足りません<gray>！ <gold>%cost%</gold> 必要です"
+vault-charged: "<gray>テレポートリクエストに <yellow>%cost%</yellow> が請求されました。</gray>"

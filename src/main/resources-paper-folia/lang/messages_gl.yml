@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Foches <green>forzado <gray>a teletransportarte!</gree
 force-tpa-disabled: "<gray>TPA forzado está <red>desactivado <gray>neste servidor.</gray>"
 world-filtered-sender: "<gray>Non <red>podes <gray>enviar solicitudes desde este mundo.</gray>"
 world-filtered-target: "<gray>Non <red>podes <gray>enviar solicitudes a este mundo.</gray>"
+vault-insufficient-funds: "<gray>Non tes <red>diñeiro suficiente<gray>! Necesitas <gold>%cost%</gold>"
+vault-charged: "<gray>Cobrouse <yellow>%cost%</yellow> pola solicitude de teletransporte.</gray>"

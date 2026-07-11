@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Вы были <green>принудительно <gray>
 force-tpa-disabled: "<gray>Принудительная телепортация <red>отключена <gray>на сервере.</gray>"
 world-filtered-sender: "<gray>Вы <red>не можете <gray>отправлять запросы из этого мира.</gray>"
 world-filtered-target: "<gray>Вы <red>не можете <gray>отправлять запросы в этот мир.</gray>"
+vault-insufficient-funds: "<gray>У вас <red>недостаточно средств<gray>! Нужно <gold>%cost%</gold>"
+vault-charged: "<gray>Списано <yellow>%cost%</yellow> за запрос телепортации.</gray>"

@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Τηλεμεταφερθήκατε <green>αναγκα
 force-tpa-disabled: "<gray>Η αναγκαστική TPA είναι <red>απενεργοποιημένη <gray>σε αυτόν τον διακομιστή.</gray>"
 world-filtered-sender: "<gray>Δεν <red>μπορείτε <gray>να στείλετε αιτήματα από αυτόν τον κόσμο.</gray>"
 world-filtered-target: "<gray>Δεν <red>μπορείτε <gray>να στείλετε αιτήματα σε αυτόν τον κόσμο.</gray>"
+vault-insufficient-funds: "<gray>Δεν έχετε <red>αρκετά χρήματα<gray>! Χρειάζεστε <gold>%cost%</gold>"
+vault-charged: "<gray>Χρεώθηκαν <yellow>%cost%</yellow> για αίτημα τηλεμεταφοράς.</gray>"

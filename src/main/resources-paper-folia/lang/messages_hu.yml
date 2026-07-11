@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Kényszerített <green>teleportálás történt!</gree
 force-tpa-disabled: "<gray>A kényszerített TPA ezen a szerveren <red>le van tiltva<gray>.</gray>"
 world-filtered-sender: "<gray>Ebből a világból <red>nem küldhetsz <gray>kéréseket.</gray>"
 world-filtered-target: "<gray>Ebbe a világba <red>nem küldhetsz <gray>kéréseket.</gray>"
+vault-insufficient-funds: "<gray>Nincs <red>elég pénzed<gray>! Kell <gold>%cost%</gold>"
+vault-charged: "<gray>Levéve <yellow>%cost%</yellow> a teleportálási kérésért.</gray>"

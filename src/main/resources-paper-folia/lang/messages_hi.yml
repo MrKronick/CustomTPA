@@ -53,3 +53,5 @@ force-tpa-success: "<gray>आपको <green>बलपूर्वक <gray>ट
 force-tpa-disabled: "<gray>बलपूर्वक TPA इस सर्वर पर <red>अक्षम <gray>है।</gray>"
 world-filtered-sender: "<gray>आप इस दुनिया से <red>अनुरोध नहीं भेज सकते<gray>।</gray>"
 world-filtered-target: "<gray>आप इस दुनिया में <red>अनुरोध नहीं भेज सकते<gray>।</gray>"
+vault-insufficient-funds: "<gray>आपके पास <red>पर्याप्त पैसे नहीं हैं<gray>! चाहिए <gold>%cost%</gold>"
+vault-charged: "<gray>टेलीपोर्ट अनुरोध के लिए <yellow>%cost%</yellow> काटे गए।</gray>"

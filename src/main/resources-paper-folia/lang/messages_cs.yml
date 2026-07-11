@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Byli jste <green>násilně <gray>teleportováni!</gree
 force-tpa-disabled: "<gray>Vynucený TPA je na tomto serveru <red>zakázán<gray>.</gray>"
 world-filtered-sender: "<gray>Z tohoto světa <red>nemůžeš <gray>odesílat žádosti.</gray>"
 world-filtered-target: "<gray>Do tohoto světa <red>nemůžeš <gray>odesílat žádosti.</gray>"
+vault-insufficient-funds: "<gray>Nemáš <red>dostatek peněz<gray>! Potřebuješ <gold>%cost%</gold>"
+vault-charged: "<gray>Účtováno <yellow>%cost%</yellow> za žádost o teleportaci.</gray>"

@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Has estat <green>forçadament <gray>teleportat!</green
 force-tpa-disabled: "<gray>El TPA forçat està <red>desactivat <gray>en aquest servidor.</gray>"
 world-filtered-sender: "<gray>No <red>pots <gray>enviar sol·licituds des d'aquest món.</gray>"
 world-filtered-target: "<gray>No <red>pots <gray>enviar sol·licituds a aquest món.</gray>"
+vault-insufficient-funds: "<gray>No tens <red>prou diners<gray>! Necessites <gold>%cost%</gold>"
+vault-charged: "<gray>S'han cobrat <yellow>%cost%</yellow> per la sol·licitud de teletransport.</gray>"

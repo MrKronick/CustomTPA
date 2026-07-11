@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Sinut on <green>pakotettu <gray>teleporttaamaan!</gree
 force-tpa-disabled: "<gray>Pakotettu TPA on <red>pois käytöstä <gray>tällä palvelimella.</gray>"
 world-filtered-sender: "<gray>Et <red>voi <gray>lähettää pyyntöjä tästä maailmasta.</gray>"
 world-filtered-target: "<gray>Et <red>voi <gray>lähettää pyyntöjä tähän maailmaan.</gray>"
+vault-insufficient-funds: "<gray>Sinulla <red>ei ole tarpeeksi rahaa<gray>! Tarvitset <gold>%cost%</gold>"
+vault-charged: "<gray>Veloitettiin <yellow>%cost%</yellow> teleporttipyynnöstä.</gray>"

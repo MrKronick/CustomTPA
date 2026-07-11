@@ -53,3 +53,5 @@ force-tpa-success: "<gray>ਤੁਹਾਨੂੰ <green>ਜਬਰਦਸਤੀ <gr
 force-tpa-disabled: "<gray>ਜਬਰਦਸਤੀ TPA ਇਸ ਸਰਵਰ 'ਤੇ <red>ਬੰਦ<gray> ਹੈ।</gray>"
 world-filtered-sender: "<gray>ਤੁਸੀਂ ਇਸ ਸੰਸਾਰ ਤੋਂ <red>ਬੇਨਤੀ ਨਹੀਂ ਭੇਜ ਸਕਦੇ<gray>।</gray>"
 world-filtered-target: "<gray>ਤੁਸੀਂ ਇਸ ਸੰਸਾਰ ਵਿੱਚ <red>ਬੇਨਤੀ ਨਹੀਂ ਭੇਜ ਸਕਦੇ<gray>।</gray>"
+vault-insufficient-funds: "<gray>ਤੁਹਾਡੇ ਕੋਲ <red>ਪਰਯਾਪਤ ਪੈਸੇ ਨਹੀਂ ਹਨ<gray>! ਚਾਹੀਦਾ <gold>%cost%</gold>"
+vault-charged: "<gray>ਟੈਲੀਪੋਰਟ ਬੇਨਤੀ ਲਈ <yellow>%cost%</yellow> ਕੱਟੇ ਗਏ।</gray>"

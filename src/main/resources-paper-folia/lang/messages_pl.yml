@@ -53,3 +53,5 @@ force-tpa-success: "<gray>Zostałeś <green>przymusowo <gray>teleportowany!</gre
 force-tpa-disabled: "<gray>Wymuszona teleportacja jest <red>wyłączona <gray>na tym serwerze.</gray>"
 world-filtered-sender: "<gray>Nie <red>możesz <gray>wysyłać próśb z tego świata.</gray>"
 world-filtered-target: "<gray>Nie <red>możesz <gray>wysyłać próśb do tego świata.</gray>"
+vault-insufficient-funds: "<gray>Nie masz <red>wystarczająco pieniędzy<gray>! Potrzebujesz <gold>%cost%</gold>"
+vault-charged: "<gray>Pobrano <yellow>%cost%</yellow> za prośbę o teleportację.</gray>"
