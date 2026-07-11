@@ -1,0 +1,65 @@
+# CustomTPA Configuration
+
+# Checking for updates (true / false)
+update-checker: true
+request-timeout: 120          # request lifetime in seconds
+cooldown: 10                 # cooldown between requests (0 = disabled)
+delay: 3                     # delay before teleportation after acceptance
+
+# Countdown Sound (Choose One)
+# Available: ENTITY_EXPERIENCE_ORB_PICKUP, BLOCK_NOTE_BLOCK_PLING, BLOCK_NOTE_BLOCK_HAT,
+#            BLOCK_NOTE_BLOCK_BELL, UI_BUTTON_CLICK, ENTITY_ARROW_HIT_PLAYER,
+#            BLOCK_WOODEN_BUTTON_CLICK_ON, BLOCK_STONE_BUTTON_CLICK_ON
+countdown-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+
+# Sound when receiving a request (played to the person who received the request)
+# Available: ENTITY_EXPERIENCE_ORB_PICKUP, BLOCK_NOTE_BLOCK_PLING, BLOCK_NOTE_BLOCK_HAT,
+#            BLOCK_NOTE_BLOCK_BELL, UI_BUTTON_CLICK, ENTITY_ARROW_HIT_PLAYER,
+#            BLOCK_WOODEN_BUTTON_CLICK_ON, BLOCK_STONE_BUTTON_CLICK_ON
+request-sound:
+  enabled: true
+  sound: "BLOCK_NOTE_BLOCK_PLING"
+
+# Daily request limit (0 = unlimited)
+daily-limit: 0
+
+# World filtering mode
+# "blacklist" — only the specified worlds are prohibited
+# "whitelist" — only the specified worlds are allowed
+world-filter-mode: "blacklist"
+
+# List of worlds to filter
+world-filter-list:
+  - "arena"
+  - "event_world"
+  - "minigame"
+
+# Warm Welcome
+warm-welcome:
+  enabled: false
+
+# Visual effects during teleportation
+teleport-effects:
+  enabled: false
+  particle: "PORTAL"          # Particle type (for example, PORTAL, END_ROD, WITCH, ENCHANTMENT_TABLE)
+  count: 30                   # Number of particles
+
+# Request history (logging)
+request-logging:
+  enabled: false
+  file: "tpa.log"             # File name in plugin folder
+
+# TPA Back (return to place after teleportation)
+tpa-back:
+  enabled: false
+
+# Force TPA (customtpa.force right)
+force-tpa:
+  enabled: false
+
+# Auto-cleanup logs (days)
+max-log-days: 7
+
+# Cost of sending a request (0 = free)
+tpa-cost: 0
+tpahere-cost: 0
