@@ -15,7 +15,7 @@ import java.util.UUID;
 public class StatsManager {
 
     private final TPAPlugin plugin;
-    private final Map<UUID, int[]> stats = new HashMap<>(); // [sent, accepted, denied]
+    private final Map<UUID, int[]> stats = new HashMap<>();
     private final File file;
     private FileConfiguration data;
 
