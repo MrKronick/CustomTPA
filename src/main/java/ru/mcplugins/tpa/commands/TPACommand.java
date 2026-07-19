@@ -46,7 +46,6 @@ public class TPACommand implements CommandExecutor, TabCompleter {
             return true;
         }
 
-        // Проверка фильтрации мира (отправитель)
         if (!player.hasPermission("customtpa.bypass.blacklist") && config.isWorldFiltered(player.getWorld().getName())) {
             MessageUtil.send(player, config.getMessage(player, "world-filtered-sender"));
             return true;
@@ -78,7 +77,6 @@ public class TPACommand implements CommandExecutor, TabCompleter {
             return true;
         }
 
-        // Проверка фильтрации мира (цель)
         if (!player.hasPermission("customtpa.bypass.blacklist") && config.isWorldFiltered(target.getWorld().getName())) {
             MessageUtil.send(player, config.getMessage(player, "world-filtered-target"));
             return true;
@@ -98,7 +96,6 @@ public class TPACommand implements CommandExecutor, TabCompleter {
             return true;
         }
 
-        // ===== Экономика (Vault) =====
         if (economyManager.isEnabled() && !player.hasPermission("customtpa.bypass.cost")) {
             int cost = config.getTpaCost();
             if (cost > 0) {
