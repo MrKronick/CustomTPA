@@ -46,7 +46,6 @@ public final class TPAPlugin extends JavaPlugin implements Listener {
     public void onEnable() {
         instance = this;
 
-        // Печатаем красивый логотип с градиентом
         printLogo();
 
         if (!getDataFolder().exists()) {
@@ -58,7 +57,6 @@ public final class TPAPlugin extends JavaPlugin implements Listener {
         statsManager = new StatsManager(this);
         economyManager = new EconomyManager(this);
 
-        // bStats Metrics
         try {
             int pluginId = 32220;
             new Metrics(this, pluginId);
@@ -192,7 +190,6 @@ public final class TPAPlugin extends JavaPlugin implements Listener {
         String reset = "\u001B[0m";
         String bold = "\u001B[1m";
 
-        // Градиент от жёлтого к фиолетовому (6 строк)
         String[] colors = {
             "\u001B[38;5;226m",
             "\u001B[38;5;220m",
