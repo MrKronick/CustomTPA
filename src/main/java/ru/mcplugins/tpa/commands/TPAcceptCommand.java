@@ -111,7 +111,6 @@ public class TPAcceptCommand implements CommandExecutor, TabCompleter {
                 .replaceText(builder -> builder.matchLiteral("%seconds%").replacement(String.valueOf(delay)))
         );
 
-        // Сохраняем позицию для TPA Back (если включено)
         if (config.isTpaBackEnabled()) {
             plugin.saveLastLocation(teleporting);
         }
